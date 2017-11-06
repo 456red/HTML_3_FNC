@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+header {
+	width: 100%;
+	height: 67px;
+	background-image: url("../images/common/header_bg.png");
+	background-repeat: repeat-x;
+	position: fixed;
+	top: 0px;
+	z-index: 990px;
+
+}
+
+#hdtop {
+	height: 67px;
+	width: 920px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+#logo {
+	margin-top: 13px;
+	float: left;
+}
+
+nav {
+	margin-left: 175px;
+	float: left;
+}
+
+nav li {
+	float: left;
+	list-style-type: none;
+	margin-right: 20px;
+	height: 67px;
+	line-height: 67px;
+	font-size: 14px;
+	font: bold;
+	
+}
+nav a {
+	color: white;
+	text-decoration: none;
+}
+nav a:hover {
+	color: red;
+}
+
+.hdSubMenu {
+	float: right;
+}
+.hdSubMenu li {
+	float: left;
+	list-style: none;
+	margin-right: 10px;
+	height: 67px;
+	font-size: 0.65em;
+	line-height: 67px;
+}
+.hdSubMenu li:last-child {
+	margin-right: 0px;
+}
+.hdSubMenu a {
+	color: gray;
+	text-decoration: none;
+}
+
+.hdSubMenu a:hover {
+	color:white;
+}
+
+/** header 끝 **/
+/******************** main 시작 ********************/
+
+
+#main {
+	width: 100%;
+	height: 942px;
+	padding-top: 51px;
+	margin-top:67px;
+	background-image: url("../images/common/back.gif");
+}
+
+footer {
+	width: 100%;
+	height: 62px;
+	padding: 26px 0 44px 0;
+	background-image: url("../images/common/header_bg.png");
+}
+#footwrap {
+	width: 920px;
+	height: 58px;
+	margin: 0 auto;
+}
+#ft_logo {
+	float: left;
+}
+#ft_menu {
+	float: left;
+	margin-left: 30px;
+}
+#ft_menu li {
+	list-style: none;
+	float: left;
+	color: #a9a9a9;
+	font-size: 12px;
+	margin-right: 16px;
+	
+}
+#ft_addRess {
+	clear: both;
+	color: #a9a9a9;
+	font-size: 12px;
+}
+#ft_copyright {
+	color: #a9a9a9;
+	font-size: 10px;
+}
+#ft_site {
+	float: right;
+}
+#ft_site >select {
+	width: 223px;
+	height: 23px;
+	background-color: #4a4a4a;
+	color: #a9a9a9;
+}
